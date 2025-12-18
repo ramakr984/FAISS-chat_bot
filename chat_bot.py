@@ -56,7 +56,7 @@ def build_qa_chain(vector_store_path="faiss_index"):
 
 
 # Streamlit App
-st.title("RAG Chatbot with FAISS and LLaMA")
+st.title("RAG Chatbot with FAISS and groq")
 st.write("Upload a PDF and ask questions based on its content.")
 
 if "qa_chain" not in st.session_state:
@@ -96,5 +96,6 @@ if st.session_state.qa_chain:
         st.success(f"Answer: {answer}")
         st.session_state.last_uploaded_file = uploaded_file.name
      
+
 
 
