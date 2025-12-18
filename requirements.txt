@@ -1,0 +1,9 @@
+streamlit
+pypdf2
+langchain>=0.3.12
+langchain-community>=0.3.12
+langchain-huggingface>=0.1.2
+langchain-text-splitters>=0.3.4
+langchain-groq
+faiss-cpu
+sentence-transformers
